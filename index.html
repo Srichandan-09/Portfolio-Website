@@ -1,0 +1,250 @@
+<!-- Portfolio Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Page</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="stylesheet" href='src/css/style.css' />
+    <link rel="stylesheet" href="src/css/media.css" />
+    <script defer src="src/js/script.js" type="module"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+
+  <body>
+    <!-- Home -->
+
+    <div id="header">
+      <img src="public/background.jpg" alt="portfolio-background" />
+      <div class="container back-image">
+        <nav class="nav">
+          <h2 class="navHeading">My Portfolio</h2>
+          <ul class="menu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/srichandan09"
+              class="btn"
+            >
+              <i class="fa-brands fa-linkedin sizes"></i> LinkedIn</a
+            >
+          </ul>
+          <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </nav>
+        <div class="main">
+          <h1>Hi.. I am <span>Srichandan</span></h1>
+          <p>Full Stack Developer</p>
+          <div class="info">
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1wfHk89ZGdztT9fkXlkdm4mqFpoH46DOP/view?usp=sharing"
+              class="btn"
+              ><i class="fa-regular fa-file-pdf"></i> Resume</a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/Srichandan-09"
+              id="reverse"
+              class="btn"
+              ><i class="fa-brands fa-github"></i> GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About  -->
+    <div id="about">
+      <div class="row">
+        <div class="col-1">
+          <img src="public/Photo.jpg" alt="Srichandan.jpg" />
+          <div class="buttons">
+            <a
+              target="_blank"
+              href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=chandanamin95@gmail.com&tf=1"
+              class="btn"
+              ><i class="fa fa-envelope"></i> Mail Me</a
+            >
+          </div>
+          <div class="sMedia">
+            <a target="_blank" href="https://www.linkedin.com/in/srichandan09"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a target="_blank" href="https://github.com/Srichandan-09"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://instagram.com/chandan__malpe?igshid=bHR5M3lqY2hsaXdz"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-2">
+          <h1>About Me</h1>
+          <hr style="opacity: 0.5" />
+          <p class="desc">
+            I recently graduated with a B.E in CSE from Visvesvaraya
+            Technological University (VTU) and I'm excited to apply my knowledge
+            and skills to real-world IT challenges. I'm on a mission to
+            contribute to innovative solutions, collaborate with like-minded
+            professionals, and make a meaningful impact in the IT landscape. I
+            am motivated to learn and adapt quickly to new technologies,
+            frameworks, and programming languages, seeking every opportunity to
+            enhance my technical expertise.
+          </p>
+          <div class="tab">
+            <p class="title active-link">Education</p>
+            <p class="title">Skills</p>
+            <p class="title">Languages</p>
+          </div>
+          <div class="detail view-details" id="education">
+            <ul>
+              <li>
+                <span
+                  >Bachelor of Engineering (Computer Science &
+                  Engineering)</span
+                >
+                <br />Yenepoya Institute of Technology (2019-2023)
+                <p>CGPA - 8.3</p>
+              </li>
+              <li>
+                <span>Pre University</span><br />Poorna Prajna PU College
+                (2017-2019)
+                <p>Percentage - 82.67%</p>
+              </li>
+              <li>
+                <span>SSLC</span><br />SNGEM Malpe (2016-2017)
+                <p>Percentage - 97.28%</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="detail" id="skills">
+            <ul>
+              <li>
+                <span>Web Technology</span> <br />
+                HTML5 | CSS3 | Tailwind | JavaScript | ReactJS
+              </li>
+              <li>
+                <span>Programming Language</span> <br />
+                Java
+              </li>
+              <li>
+                <span>Database</span> <br />
+                SQL
+              </li>
+              <li>
+                <span>Version Control </span> <br />
+                Git | GitHub
+              </li>
+            </ul>
+          </div>
+          <div class="detail" id="languages">
+            <ul>
+              <li>English</li>
+              <li>Hindi</li>
+              <li>Kannada</li>
+              <li>Tulu</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+
+    <div id="project">
+      <div class="project-row">
+        <h3 class="title-2">Projects</h3>
+        <hr style="opacity: 0.5" />
+        <div class="project-list">
+          <div class="myproject">
+            <img src="public/javascript-1.png" />
+            <div class="layer">
+              <h3><u>Forkify</u></h3>
+              <p>
+                Forkify is a recipe application that uses the Forkify API to
+                fetch and render recipe data. It utilizes modern development
+                tools such as Parcel and Babel, empowering users to perform
+                actions like searching for recipes, bookmarking them, adjusting
+                serving sizes, and accessing detailed step-by-step instructions.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="myproject">
+            <img src="public/dbms.jpg" />
+            <div class="layer">
+              <h3><u>Covid Bed Booking System</u></h3>
+              <p>
+                The Covid Bed Booking Management System has been developed to
+                provide an efficient bed management in this pandemic to save
+                lives of covid patient. This system is supported in some cases
+                to reduce the hardships faced by the existing system. More over
+                this system is designed for the particular need to carry out the
+                necessary operations effectively.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="myproject">
+            <img src="public/int.jpg" />
+            <div class="layer">
+              <h3><u>Library Managment System</u></h3>
+              <p>
+                A library management system is designed to manage all the
+                functions of a library. It helps librarian to maintain the
+                database of new books and the books that are borrowed by members
+                along with their due dates. The best way to maintain, organize,
+                and handle countless books systematically is to implement a
+                library management system software.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="myproject">
+            <img src="public/major.png" />
+            <div class="layer">
+              <h3><u>ATM Security System</u></h3>
+              <p>
+                We developed an ATM model that is more reliable in providing
+                security to ATM outlets by using facial recognition software.
+                The proposed system can be implemented and maintained low cost,
+                and also safety helmet wear, mask, weapon, and detection of more
+                than one face can be accurately identified.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

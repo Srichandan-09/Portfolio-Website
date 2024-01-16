@@ -1,0 +1,421 @@
+/*Mobile Devices*/
+
+@media screen and (min-width: 370px) and (max-width: 480px) {
+  html {
+    font-size: 27%;
+  }
+
+  hr {
+    position: relative;
+    z-index: -1;
+  }
+
+  /*Header*/
+  #header {
+    height: 50vh;
+  }
+
+  #header img {
+    height: 95%;
+  }
+
+  .back-image {
+    height: 40vh;
+  }
+
+  .nav {
+    height: 12rem;
+    padding: 2em 0 2em 2em;
+  }
+
+  .nav.sticky {
+    padding: 2em 0 2em 2em;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  #menu-icon {
+    font-size: 5rem;
+    display: block;
+    margin-right: 2%;
+  }
+
+  .menu {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100vh;
+    opacity: 0;
+    transition: all 0.5s ease;
+    background: #ff004f;
+    pointer-events: none;
+  }
+
+  .menu.open {
+    opacity: 1;
+    pointer-events: visible;
+  }
+
+  .nav ul {
+    display: block;
+  }
+
+  .nav ul li {
+    position: relative;
+    top: 50px;
+    height: 30px;
+  }
+
+  .nav ul li a {
+    left: 10px;
+    font-size: 2.8rem;
+    font-weight: bold;
+    transition: 0.3s;
+    color: rgb(0, 0, 0);
+    transition: all 0.4s ease;
+  }
+
+  .nav ul li a::after {
+    background: rgb(255, 255, 255);
+  }
+
+  nav ul li a:hover {
+    font-size: 3rem;
+  }
+
+  nav .btn {
+    display: none;
+  }
+
+  .main {
+    margin-top: 15%;
+  }
+
+  .main h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+
+  .main p {
+    font-size: 2.5em;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .info {
+    margin-left: 0%;
+    margin-right: 2%;
+    justify-content: center;
+  }
+
+  nav .btn,
+  .main .btn,
+  .col-1 .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 2rem;
+  }
+
+  /* About */
+  .row {
+    flex-direction: column;
+    row-gap: 8em;
+  }
+
+  .col-1 {
+    row-gap: 2.5em;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .col-1 img {
+    margin-top: 5%;
+    width: 45%;
+  }
+
+  .col-1 .buttons {
+    line-height: 5em;
+    padding-top: 1em;
+  }
+
+  .col-1 .buttons .btn {
+    font-size: 2.5rem;
+  }
+
+  .sMedia {
+    height: 5em;
+    width: 25%;
+  }
+
+  .sMedia a {
+    font-size: 5em;
+  }
+
+  .col-2 {
+    width: 100%;
+    padding: 0 6em;
+  }
+
+  .col-2 h1 {
+    font-size: 3.3em;
+    text-align: center;
+  }
+
+  .col-2 .desc {
+    font-size: 3em;
+  }
+
+  .tab {
+    column-gap: 15em;
+  }
+
+  .title {
+    font-size: 3em;
+  }
+
+  .detail ul li {
+    font-size: 3em;
+  }
+  .detail ul li span {
+    font-size: 1em;
+  }
+
+  /* Projects */
+
+  .myproject {
+    flex-basis: 50%;
+    height: 33rem;
+    margin: 3em 0;
+  }
+
+  .layer {
+    line-height: 1.2em;
+    justify-content: space-evenly;
+  }
+  .layer h3 {
+    height: 1.5em;
+    font-size: 1.3em;
+  }
+  .layer p {
+    height: 10em;
+    font-size: 0.85em;
+  }
+  .layer a {
+    height: 1em;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 370px) {
+  html {
+    font-size: 24%;
+  }
+
+  hr {
+    position: relative;
+    z-index: -1;
+  }
+
+  /*Header*/
+  #header {
+    height: 50vh;
+  }
+
+  #header img {
+    height: 95%;
+  }
+
+  .back-image {
+    height: 40vh;
+  }
+
+  #menu-icon {
+    font-size: 5rem;
+    display: block;
+    margin-right: 2%;
+  }
+
+  .nav {
+    height: 10rem;
+    padding: 2em 0 2em 2em;
+  }
+
+  .nav.sticky {
+    padding: 2em 0 2em 2em;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  #menu-icon {
+    font-size: 5rem;
+    display: block;
+    margin-right: 2%;
+  }
+
+  .menu {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 30%;
+    height: 100vh;
+    right: -1.5%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    background: #ff004f;
+    pointer-events: none;
+  }
+
+  .menu.open {
+    opacity: 1;
+    pointer-events: visible;
+  }
+
+  .nav ul {
+    display: block;
+  }
+
+  .nav ul li {
+    position: relative;
+    top: 50px;
+    height: 30px;
+  }
+
+  .nav ul li a {
+    left: 10px;
+    font-size: 2.6rem;
+    font-weight: bold;
+    transition: 0.3s;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+  }
+
+  .nav ul li a::after {
+    background: rgb(255, 255, 255);
+  }
+
+  nav ul li a:hover {
+    font-size: 3rem;
+  }
+
+  nav .btn {
+    display: none;
+  }
+
+  .main {
+    margin-top: 20%;
+  }
+
+  .main h1 {
+    font-size: 4.2em;
+    text-align: center;
+  }
+
+  .main p {
+    font-size: 2.8em;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .info {
+    margin-left: 0%;
+    margin-right: 2%;
+    justify-content: center;
+  }
+
+  .main .btn,
+  nav .btn,
+  .col-1 .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 2rem;
+  }
+
+  /* About */
+  .row {
+    flex-direction: column;
+    row-gap: 5em;
+  }
+
+  .col-1 {
+    row-gap: 3em;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .col-1 img {
+    margin-top: 4%;
+    width: 38%;
+  }
+
+  .col-1 .buttons {
+    line-height: 5em;
+    padding-top: 1em;
+  }
+
+  .col-1 .buttons .btn {
+    font-size: 2.5rem;
+  }
+
+  .sMedia {
+    height: 5em;
+    width: 30%;
+  }
+
+  .sMedia a {
+    font-size: 5em;
+  }
+
+  .col-2 {
+    width: 100%;
+    padding: 0 6em;
+  }
+
+  .col-2 h1 {
+    font-size: 3.2em;
+    text-align: center;
+  }
+
+  .col-2 .desc {
+    font-size: 2.5em;
+  }
+
+  .tab {
+    column-gap: 10em;
+  }
+
+  .title {
+    font-size: 3em;
+  }
+
+  .detail ul li {
+    font-size: 3em;
+  }
+  .detail ul li span {
+    font-size: 1em;
+  }
+
+  /* Projects */
+  .myproject {
+    flex-basis: 50%;
+    height: 32rem;
+    margin: 2.5em 0 2.5em;
+  }
+
+  .layer {
+    line-height: 1em;
+    justify-content: space-evenly;
+  }
+
+  .layer h3 {
+    height: 1.7em;
+    font-size: 1.2em;
+  }
+
+  .layer p {
+    height: 10em;
+    font-size: 0.8em;
+  }
+
+  .layer a {
+    height: 1.5em;
+    font-size: 1.5em;
+  }
+}
